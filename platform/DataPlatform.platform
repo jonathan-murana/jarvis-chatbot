@@ -1,0 +1,7 @@
+Platform DataPlatform
+
+path "edu.uoc.som.jarvis.data.platform.DataPlatform"
+	
+actions {
+	DameData(key)	
+}

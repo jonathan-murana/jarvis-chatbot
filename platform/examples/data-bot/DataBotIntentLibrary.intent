@@ -1,0 +1,19 @@
+Library DataBotLibrary
+
+intent MiSistemaDeStockUrlsAmbientes{
+	inputs{
+		"ambientes Mi Sistema de Stock"
+		"url Mi Sistema de Stock"
+		"entrar stock"		
+	}
+	
+}
+
+intent MiSistemaDeSeguridadUrlsAmbientes{
+	inputs{
+		"ambientes Mi Sistema de Seguridad"
+		"url Mi Sistema de SEguridad"
+		"entrar seguridad"		
+	}
+	
+}

@@ -1,0 +1,2 @@
+misistemadestock-urlsambientes,desarrollo=desaserver..8888//mistock.com test=testserver..8888//mistock.com
+misistemadeseguridad-urlsambientes,desarrollo=desaserver..8888//permisos.com test=testserver..8888//permisos.com

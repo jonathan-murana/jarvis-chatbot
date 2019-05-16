@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<intent:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:intent="edu.uoc.som.jarvis.intent" name="DataBotLibrary">
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="MiSistemaDeStockUrlsAmbientes">
+    <trainingSentences>ambientes Mi Sistema de Stock</trainingSentences>
+    <trainingSentences>url Mi Sistema de Stock</trainingSentences>
+    <trainingSentences>entrar stock</trainingSentences>
+  </eventDefinitions>
+  <eventDefinitions xsi:type="intent:IntentDefinition" name="MiSistemaDeSeguridadUrlsAmbientes">
+    <trainingSentences>ambientes Mi Sistema de Seguridad</trainingSentences>
+    <trainingSentences>url Mi Sistema de SEguridad</trainingSentences>
+    <trainingSentences>entrar seguridad</trainingSentences>
+  </eventDefinitions>
+</intent:Library>

@@ -1,0 +1,13 @@
+import library "data-bot/DataBotIntentLibrary.xmi"
+import platform "SlackPlatform"
+import platform "data-platform/DataPlatform.xmi"
+
+use provider SlackPlatform.SlackIntentProvider
+
+on intent MiSistemaDeStockUrlsAmbientes do 
+	def res = action DataPlatform.DameData(key : "misistemadestock-urlsambientes")
+	action SlackPlatform.Reply(message : res)
+	
+on intent MiSistemaDeSeguridadUrlsAmbientes do 
+	def res = action DataPlatform.DameData(key : "misistemadeseguridad-urlsambientes")
+	action SlackPlatform.Reply(message : res)
