@@ -16,13 +16,13 @@ import controller.Controller;
  * This class relies on the {@link Neo4jPlatform}'s {@link org.neo4j.graphdb.GraphDatabaseService} to create and
  * store the node in the associated Neo4j database.
  */
-public class DameData extends RuntimeAction<DataPlatform> {
+public class GetData extends RuntimeAction<DataPlatform> {
 
 
     private String label;
 
 
-    public DameData(DataPlatform runtimePlatform, JarvisSession session, String label) {
+    public GetData(DataPlatform runtimePlatform, JarvisSession session, String label) {
         super(runtimePlatform, session);
         this.label = label;
     }
