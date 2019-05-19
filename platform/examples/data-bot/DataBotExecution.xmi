@@ -8,7 +8,7 @@
         <action href="file:/home/jon/Desktop/data-platform/platform/DataPlatform.xmi#//@actions.0"/>
         <values>
           <parameter href="file:/home/jon/Desktop/data-platform/platform/DataPlatform.xmi#//@actions.0/@parameters.0"/>
-          <expression xsi:type="common:StringLiteral" value="misistemadestock-urlsambientes"/>
+          <expression xsi:type="common:StringLiteral" value="misistemadestock-urls_ambientes"/>
         </values>
       </value>
     </instructions>
@@ -27,7 +27,7 @@
         <action href="file:/home/jon/Desktop/data-platform/platform/DataPlatform.xmi#//@actions.0"/>
         <values>
           <parameter href="file:/home/jon/Desktop/data-platform/platform/DataPlatform.xmi#//@actions.0/@parameters.0"/>
-          <expression xsi:type="common:StringLiteral" value="misistemadeseguridad-urlsambientes"/>
+          <expression xsi:type="common:StringLiteral" value="misistemadeseguridad-urls_ambientes"/>
         </values>
       </value>
     </instructions>

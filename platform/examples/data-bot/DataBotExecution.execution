@@ -5,9 +5,9 @@ import platform "data-platform/DataPlatform.xmi"
 use provider SlackPlatform.SlackIntentProvider
 
 on intent MiSistemaDeStockUrlsAmbientes do 
-	def res = action DataPlatform.DameData(key : "misistemadestock-urlsambientes")
+	def res = action DataPlatform.DameData(key : "misistemadestock-urls_ambientes")
 	action SlackPlatform.Reply(message : res)
 	
 on intent MiSistemaDeSeguridadUrlsAmbientes do 
-	def res = action DataPlatform.DameData(key : "misistemadeseguridad-urlsambientes")
+	def res = action DataPlatform.DameData(key : "misistemadeseguridad-urls_ambientes")
 	action SlackPlatform.Reply(message : res)
